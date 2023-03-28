@@ -5,7 +5,7 @@ package:
 
 base:
   id: org.deepin.base
-  version: 20.5.0
+  version: 23.0.0
 
 depends:
 - id: qtbase
@@ -17,7 +17,7 @@ depends:
 
 source:
   kind: git
-  url: https://github.com/linuxdeepin/gsettings-qt.git
+  url: https://github.com/deepin-community/gsettings-qt.git
   version: 0.2
   commit: 8d5c94f1175aeff077cca58c9c9dd1a64a92b31c
 
