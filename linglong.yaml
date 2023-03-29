@@ -18,8 +18,7 @@ depends:
 source:
   kind: git
   url: https://github.com/deepin-community/gsettings-qt.git
-  version: 0.2
-  commit: 8d5c94f1175aeff077cca58c9c9dd1a64a92b31c
+  commit: d41c1f2a844b17f997c75f2216f18daa8cd2a080
 
   patch: []
 build:
