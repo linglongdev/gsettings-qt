@@ -17,6 +17,12 @@ source:
   url: https://github.com/deepin-community/gsettings-qt.git
   commit: d41c1f2a844b17f997c75f2216f18daa8cd2a080
 
-  patch: []
+  patch:
+    - 0001_Fix-link-path-error.patch
+    - 0002_Add-ordered-config.patch
+    - 0003_Fix-make-check-failed.patch
+    - 0004_Increase-test-timeout.patch
+    - 0005_bugfix-about-test-cases.patch
+    - 2001_keep-com.canonical-DBus-namespace.patch
 build:
   kind: qmake

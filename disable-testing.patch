@@ -1,0 +1,7 @@
+diff -Naur a/gsettings-qt.pro b/gsettings-qt.pro
+--- a/gsettings-qt.pro	2022-11-07 13:50:17.619766780 +0800
++++ b/gsettings-qt.pro	2022-11-07 13:51:07.547766780 +0800
+@@ -1,2 +1,2 @@
+ TEMPLATE = subdirs
+-SUBDIRS += src/gsettings-qt.pro GSettings/gsettings-qt.pro tests/tests.pro tests/cpptest.pro
++SUBDIRS += src/gsettings-qt.pro GSettings/gsettings-qt.pro # tests/tests.pro tests/cpptest.pro
