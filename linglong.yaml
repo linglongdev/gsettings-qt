@@ -8,12 +8,9 @@ base:
   version: 23.0.0
 
 depends:
-- id: qtbase
-  version: 5.11.3.15
-- id: qtdeclarative
-  version: 5.11.3
-- id: qttools
-  version: 5.11.3
+  - id: qtbase/5.15
+  - id: qtdeclarative/5.15
+  - id: qttools/5.15
 
 source:
   kind: git
